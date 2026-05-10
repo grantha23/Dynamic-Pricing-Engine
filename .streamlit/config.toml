@@ -1,0 +1,23 @@
+[theme]
+# Base colors — applied before any Python/CSS runs, eliminates flash-of-wrong-theme
+base                = "dark"
+backgroundColor     = "#030712"
+secondaryBackgroundColor = "#070d1a"
+textColor           = "#e2e8f0"
+primaryColor        = "#00ff88"
+font                = "monospace"
+
+[server]
+headless            = true
+port                = 8501
+enableCORS          = false
+enableXsrfProtection = false
+
+[client]
+# Faster re-runs — don't show spinner on every rerun
+showErrorDetails    = true
+toolbarMode         = "minimal"
+
+[runner]
+# Reduce re-run lag
+fastReruns          = true

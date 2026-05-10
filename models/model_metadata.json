@@ -1,0 +1,78 @@
+{
+  "training_date": "2026-05-10T05:57:35.760654",
+  "n_samples_total": 10000,
+  "n_train": 8000,
+  "n_test": 2000,
+  "model_version": "xgboost_v1.1",
+  "target": "price_change_pct",
+  "units": "percentage_points",
+  "mae_target": "< 8 percentage points",
+  "mae": 1.2912,
+  "rmse": 1.613,
+  "r2": 0.966,
+  "mape": 74.2693,
+  "top_10_features": {
+    "customer_segment_premium": 0.48207658529281616,
+    "customer_segment_budget": 0.23420363664627075,
+    "inventory_ratio": 0.13757984340190887,
+    "inventory": 0.053829826414585114,
+    "customer_segment_regular": 0.045985762029886246,
+    "demand_ratio": 0.01367709506303072,
+    "demand": 0.012201336212456226,
+    "demand_hour_interaction": 0.007838191464543343,
+    "demand_inventory_product": 0.0008960976265370846,
+    "demand_weekend": 0.000715599802788347
+  },
+  "sample_predictions": [
+    {
+      "actual_pct": -6.5615,
+      "predicted_pct": -7.9365,
+      "error_ppts": 1.375
+    },
+    {
+      "actual_pct": -7.3102,
+      "predicted_pct": -7.0055,
+      "error_ppts": 0.3047
+    },
+    {
+      "actual_pct": 6.0428,
+      "predicted_pct": 5.3873,
+      "error_ppts": 0.6555
+    },
+    {
+      "actual_pct": -25.1307,
+      "predicted_pct": -23.6258,
+      "error_ppts": 1.5049
+    },
+    {
+      "actual_pct": -22.3561,
+      "predicted_pct": -22.0945,
+      "error_ppts": 0.2616
+    },
+    {
+      "actual_pct": 2.1257,
+      "predicted_pct": 0.8042,
+      "error_ppts": 1.3215
+    },
+    {
+      "actual_pct": -19.1658,
+      "predicted_pct": -19.4339,
+      "error_ppts": 0.2681
+    },
+    {
+      "actual_pct": -6.0283,
+      "predicted_pct": -4.968,
+      "error_ppts": 1.0603
+    },
+    {
+      "actual_pct": -9.5165,
+      "predicted_pct": -8.0451,
+      "error_ppts": 1.4714
+    },
+    {
+      "actual_pct": 2.1996,
+      "predicted_pct": -0.5775,
+      "error_ppts": 2.7771
+    }
+  ]
+}
